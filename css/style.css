@@ -11,5 +11,10 @@
 header a:hover{
     background-color: aqua;
     color:green;
-
+}
+h1{
+    text-align: center;
+}
+img{
+    align:center;
 }
