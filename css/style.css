@@ -5,3 +5,9 @@
     border-color: blue;
     padding: 20px;
 }
+.header{
+    background-color: aqua;
+}
+header a:hover{
+    
+}
