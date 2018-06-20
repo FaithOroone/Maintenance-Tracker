@@ -16,5 +16,10 @@ h1{
     text-align: center;
 }
 img{
-    align:center;
+    width: 30%;
+}
+.home-content{
+    font-size: 20;
+    font-family:sans-serif;
+
 }
