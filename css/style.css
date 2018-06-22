@@ -1,5 +1,5 @@
 .container{
-    width: 50%;
+    width: 70%;
     margin:0 auto 0;
     border-style: groove;
     border-color: blue;
@@ -25,5 +25,22 @@ img{
 }
 button{
     width: 30%;
+    height: 40px;
     background-color: forestgreen;
+}
+.links{
+    text-align: right;
+}
+h2{
+    text-align: center;
+}
+input{
+    width: 30%;
+    height: 40px;
+}
+.signup{
+    text-align: center;
+}
+.login{
+    text-align: center;
 }
