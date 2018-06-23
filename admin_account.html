@@ -3,12 +3,38 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Admin</title>
+    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-<body>
-    
+<body class=login-page>
+    <div class="container">
+        <header class="header">
+            <div class="company-logo">
+                <img src="images/Andela-logo.png" alt="company-logo">
+                <h1>Maintenance Tracker</h1>
+            <nav>
+                <a class="active" href="index.html">Home</a>
+                <a href="admin_account.html">Admin Login</a>
+            </nav>
+            </div>
+        </header>
+        <div class="intro">
+            Please login with your Admin username and password to view, approve,reject user requests or work on them.
+        </div>
+        <form class="admin-content">
+            <div class="img-container">
+                <img src="images/Andela.jpeg">
+            </div>
+            <div class="container">
+                <h2>Login As An Admin</h2>
+                <label for="username"><strong>UserName</strong></label>
+                <input type="text" placeholder="UserName" name="username" required>
+                <label for="password"><strong>Password</strong></label>
+                <input type="password" placeholder="Password" name="password" required>
+                <a href="Admin.html"><button type="button">Login</button></a>
+            </div>
+        </form>
 </body>
 </html>
