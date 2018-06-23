@@ -2,11 +2,11 @@
     width: 70%;
     margin:0 auto 0;
     border-style: groove;
-    border-color: blue;
+    border-color:#4f95b7;
     padding: 20px;
+    background-image: url(../images/Lifebook_LH531_06.jpg)
 }
 .header{
-    background-color: aqua;
 }
 header a:hover{
     background-color: aqua;
