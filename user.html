@@ -25,23 +25,23 @@
         <P>Complete this Maintenance/Repair Request Form to submit a maintenance or a repair 
             request to the operations and repair department
         </P>
-            <form>
-                <label for="Category">Category</label>
-                <select>
-                    <option value="Category">Category</option>
-                    <option value="computers">Computers</option>
-                    <option value="Tables">Tables</option>
-                    <option value="Chairs">Chairs</option>
-                    <option value="door">Door</option>
-                </select><br><br>
+        <form>
+            <label for="Category">Category</label>
+            <select>
+                <option value="Category">Category</option>
+                <option value="computers">Computers</option>
+                <option value="Tables">Tables</option>
+                <option value="Chairs">Chairs</option>
+                <option value="door">Door</option>
+            </select><br><br>
             <label for="Request-type">Request-type</label>
             <select name="Request-type">
                 <option value="Request-type">Request-type</option>
                 <option value="Maintenance"> Maintenance</option>
                 <option value="Repair">Repair</option>
             </select><br><br>
-             <label for="description">Description</label>
-             <input type="text" placeholder="description" required><br><br>
+            <label for="description">Description</label>
+            <input type="text" placeholder="description" required><br><br>
             <label for="Departments">Departments</label>
             <select name="department"> 
                 <option>Departments</option>
@@ -58,6 +58,57 @@
                 <option value="pending">Pending</option>
                 <option value="delivered">Delivered</option>
             </select><br><br>
+            <button type="submit">Submit</button>
+            <button class="button">Cancel</button>
+        </form>
+    </section>
+    <div class="your-Re">
+        <h4>click here to view your request</h4>
+        <table>
+            <th>Category</th>
+            <th>Request-type</th>
+            <th>Description</th>
+            <th>Department</th>
+            <th>status</th>
+            <tr>
+                <td>Table</td>
+                <td>Repair</td>
+                <td>My Table leg needs a replacement</td>
+                <td>IT</td>
+                <td>
+                    <select>
+                        <option>Approve</option>
+                        <option>Disapprove</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>Computer</td>
+                    <td>Maintenance</td>
+                    <td>My Computer has refused to connect to the internet.</td>
+                    <td>Human Resource</td>
+                    <td>
+                        <select>
+                            <option>Approve</option>
+                            <option>Disapprove</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chair</td>
+                    <td>Maintenance</td>
+                    <td>My Chair is not comfortable.</td>
+                    <td>operations</td>
+                    <td>
+                        <select>
+                            <option>Approve</option>
+                            <option>Disapprove</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
             <div class="request-form">
                 <h3>Please Make a Maintenance/Repair Request here;</h3>
                 <label for="title">Request-title</label>
