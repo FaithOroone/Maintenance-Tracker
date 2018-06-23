@@ -20,11 +20,13 @@
         </header><!--end of header-->
     </div><!--end of div container-->
     <section>
-        <form>
-            <h2>Maintenance/Repair Request Form</h2>
-            <P>Complete this Maintenance/Repair Request Form to submit a maintenance or a repair 
-                request to the operations and repair department</P>
-
+        <h2>Maintenance/Repair Request Form</h2>
+        <h2>Request</h2>
+        <P>Complete this Maintenance/Repair Request Form to submit a maintenance or a repair 
+            request to the operations and repair department
+        </P>
+            <form>
+                <label for="Category">Category</label>
                 <select>
                     <option value="Category">Category</option>
                     <option value="computers">Computers</option>
@@ -32,14 +34,24 @@
                     <option value="Chairs">Chairs</option>
                     <option value="door">Door</option>
                 </select>
-
+            <label for="Request-type">Request-type</label>
             <select name="Request-type">
                 <option value="Request-type">Request-type</option>
                 <option value="Maintenance"> Maintenance</option>
                 <option value="Repair">Repair</option>
-                <option value="montoring">montoring</option>
             </select>
-
+             <label for="description">Description</label>
+             <input type="text" placeholder="description" required>
+            <label for="Departments">Departments</label>
+            <select name="department"> 
+                <option>Departments</option>
+                <option value="IT">IT</option>
+                <option value="operations">perations</option>
+                <option value="transport">Transport</option>
+                <option value="Human-Resource">Human Resource</option>
+                <option value="security">Security</option>
+            </select>
+            <label for="Status">Status</label>
             <select name="Status">
                 <option value="status">Status</option>
                 <option value="complete">Complete</option>
