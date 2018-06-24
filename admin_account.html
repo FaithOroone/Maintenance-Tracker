@@ -4,32 +4,35 @@
     <meta charset="utf-8" />
     <title>Admin_account</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class=login-page>
     <div class="container">
         <header class="header">
-            <div class="company-logo">
+            <div class="Company-logo">
                 <img src="images/Andela-logo.png" alt="company-logo">
-                <h1>Maintenance Tracker</h1>
-            <nav>
+                <h1>Repairs/Maintenance Tracker</h1>
+            <nav class="links">
                 <a class="active" href="index.html">Home</a>
                 <a href="admin_account.html">Admin Login</a>
+                <a href="admin_account.html">Signout</a>
             </nav>
             </div>
         </header>
-        <div class="intro">
-            Please login with your Admin username and password to view, approve,reject user requests or work on them.
-        </div>
-        <form class="admin-content">
-            <div class="container">
-                <h2>Login As An Admin</h2>
-                <label for="username"><strong>UserName</strong></label>
-                <input type="text" placeholder="UserName" name="username" required>
-                <label for="password"><strong>Password</strong></label>
-                <input type="password" placeholder="Password" name="password" required>
-                <a href="Admin.html"><button type="button">Login</button></a>
+        <div class="intro"><!--start of intro div-->
+            <p class="admin"><strong>
+                Please login with your Admin username and password to view, approve,reject user requests or work on them.
+           </strong> </p>
+            <div class="main-content">
+                <form class="admin-content">
+                    <h2>Login As An Admin</h2>
+                    <label for="username"><strong>UserName</strong></label><br><br>
+                    <input type="text" placeholder="UserName" name="username" required><br><br>
+                    <label for="password"><strong>Password</strong></label><br><br>
+                    <input type="password" placeholder="Password" name="password" required><br><br>
+                    <button type="button"><a href="Admin_dashboard.html">Login</a></button><br><br>
+                </form>
             </div>
-        </form>
+        </div><!--end of intro div-->
 </body>
 </html>

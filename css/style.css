@@ -7,7 +7,25 @@
     padding: 20px;
     background-image: url(../images/Lifebook_LH531_06.jpg)
 }
-.header{
+.main-content{
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.Description{
+    color:#f73707;
+    text-align: center;
+}
+.index{
+    float: left;
+}
+.contactus{
+    float: right;
+}
+.Company-logo{
+    text-align: center;
 }
 header a:hover{
     background-color:aqua;
@@ -31,6 +49,7 @@ button{
 }
 .links{
     text-align: right;
+    color: purple:
 }
 h2{
     text-align: center;
@@ -45,4 +64,9 @@ input{
 #login{
     text-align: center;
     background-color: aliceblue;
+}
+.admin{
+    text-align: center;
+    color: #f73707;
+    font-size: 20px;
 }

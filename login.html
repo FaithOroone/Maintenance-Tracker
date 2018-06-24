@@ -13,26 +13,41 @@
         <header class="header">
             <div class="Company-logo">
                 <img src="images/Andela-logo.png" alt="Company-logo">
-                <h1>Maintenace Tracker</h1>
+                <h1>Repairs/Maintenance Tracker</h1>
             </div>
             <!--start of navigation-->
             <nav class="links">
                 <a href="index.html">Home </a>
-                <a href="signUp.html">SignUp</a>
+                <a href="signup.html">SignUp</a>
                 <a href="login.html">Login</a>
             </nav><!--end of navigation-->
         </header><!--end of header-->
-        <div class="login"><!--start of login div-->
+        <div class="main-content"><!--start of main-content div-->
             <form action="admin.html"><!--start of login form-->
                 <h2>Login Details</h2>
                 <input type="Email" placeholder="Email" name="email" required><br><br>
                 <input type="password" placeholder="password" name="password" required><br><br>
-                <button type="submit" name="submit">Login</button>
-                <button type="submit" name="cancel">Cancel</button>
+                <button type="submit" name="submit"><a href="user_dashboard.html">Login</button></a>
+                <button type="submit" name="cancel"><a href="index.html">Cancel</button></a>
                 <h4>Don't have an Account? <a href="signup.html">SignUp</a></h4>
                 <a href="#">Forgot password?</a>
             </form><!--end of login form-->
-        </div><!--end of login div-->
+        </div><!--end of main-content div-->
+        <footer class="footer"><!--start of footer-->
+            <div class="index">
+              <h4>Our Partners</h4>
+              <ul>
+              <li><a href="#">Andela Nigera</a></li>
+              <li><a href="#">Andela Nigera</a></li>
+              </ul>
+            </div>
+            <div class="contactus">
+                <h4>Contact Us</h4>
+               <a href="#"><p>Website:www.maintenancetracker.com</p></a>
+               <a href="#"><p>Email:maintenancetracker@gmail.com</p></a>
+                <p>Tel: +256755490732</p>
+            </div>
+        </footer><!--End of footer-->
     </div><!--end of container div-->
 </body>
 </html>
