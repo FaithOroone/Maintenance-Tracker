@@ -13,19 +13,19 @@
         <header class="header"><!--start of header-->
             <div class="company-logo">
                 <img src="images/Andela-logo.png" alt="company-logo">
-                <h1>/Repair/Maintenance Tracker</h1>
+                <h1>Repair/Maintenance Tracker</h1>
             </div>
             <nav><!--start of navigation-->
                 <a href="index.html">SignOut</a>
             </nav><!--end of navigation-->
         </header><!--end of header-->
-    </div><!--end of div container-->
     <section>
-        <h2>Maintenance/Repair Request Form</h2>
-        <h2>Request</h2>
-        <P>Complete this Maintenance/Repair Request Form to submit a maintenance or a repair 
+        <h2>Welcome</h2>
+        <P class="admin"><em> 
+            Please Complete this Maintenance/Repair Request Form to submit a maintenance or a repair 
             request to the operations and repair department
-        </P>
+        </em></P>
+        <div class="main-content"><!--start of main-content div-->
         <form>
             <label for="Category">Category</label>
             <select>
@@ -64,8 +64,12 @@
         </form>
     </section>
     <div class="your-Re">
-        <h4>click here to view your request</h4>
-        <table>
+        <p>click here to view your request</p>
+        <table id="request">
+            <input type="hidden" id="myRequest">
+        </table>
+        <button onclick="myFunction()">your Request</button>
+        <p id="demo"></p>
             <th>Category</th>
             <th>Request-type</th>
             <th>Description</th>
@@ -93,26 +97,10 @@
                 <td>Approved</td>
             </tr>
         </table>
-
-        </div>
-            <div class="request-form">
-                <h3>Please Make a Maintenance/Repair Request here;</h3>
-                <label for="title">Request-title</label>
-                <input type="text" name="Request-title" placeholder="Request-title">
-                <label for="Category">Category</label>
-                <select>
-                    <option value=""></option>
-                </select>
-                <label for="Request-type">Request-type</label>
-                <select>
-                    <option value="Request-type">Request-type</option>
-                    <option value="Maintenance"> Maintenance</option>
-                    <option value="Repair">Repair</option>
-                    <option value="montoring">montoring</option>
-                    </select>
-            </div>
+    </div>
         </form>
     </section>
+</div><!--end of main-content div-->
         <!--Footer-->
     <footer>
         <div class="signup2">
@@ -128,5 +116,7 @@
             <p>Tel: +256755490732</p>
         </div>
     </footer>
+</div><!--end of div container-->
+
 </body>
 </html>
