@@ -5,7 +5,6 @@
     <title>Maintenance Tracker User-page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    
 </head>
 <!--start of body-->
 <body class="user-page">
@@ -16,12 +15,12 @@
                 <h1>Repair/Maintenance Tracker</h1>
             </div>
             <nav><!--start of navigation-->
-                <a href="index.html">SignOut</a>
+                <a href="index.html">Signout</a>
             </nav><!--end of navigation-->
         </header><!--end of header-->
     <section>
         <h2>Welcome</h2>
-        <P class="admin"><em> 
+        <P class="Description"><em> 
             Please Complete this Maintenance/Repair Request Form to submit a maintenance or a repair 
             request to the operations and repair department
         </em></P>
@@ -47,7 +46,7 @@
             <select name="department"> 
                 <option>Departments</option>
                 <option value="IT">IT</option>
-                <option value="operations">perations</option>
+                <option value="operations">operations</option>
                 <option value="transport">Transport</option>
                 <option value="Human-Resource">Human Resource</option>
                 <option value="security">Security</option>
@@ -59,12 +58,12 @@
                 <option value="pending">Pending</option>
                 <option value="delivered">Delivered</option>
             </select><br><br>
-            <button type="submit">Submit</button>
-            <button class="button">Cancel</button>
+            <button type="submit"><a href="index.html">Submit</a></button>
+            <button class="button"><a href="index.html">Cancel</a></button>
         </form>
     </section>
     <div class="your-Re">
-        <p>view your request</p>
+        <p class="Description">view your request</p>
         <table id="request">
             <th>Category</th>
             <th>Request-type</th>
@@ -99,12 +98,14 @@
 </div><!--end of main-content div-->
         <!--Footer-->
     <footer>
-        <div class="signup2">
+        <div class="contactus">
             <h4>Our Partners</h4>
-            <a href="#">Andela Nigera</a>
-            <a href="#">Andela Kenya</a>
+            <ul>
+                <li><a href="#">Andela Nigeria</a></li>
+                <li><a href="#">Andela Uganda</a></li>
+                <li><a href="#">Andela Kenya</a></li>
+            </ul>
         </div>
-
         <div class="signup3">
             <h4>Contact Us</h4>
             <a href="#"><p>Website:www.maintenancetracker.com</p></a>
@@ -113,6 +114,5 @@
         </div>
     </footer>
 </div><!--end of div container-->
-
 </body>
 </html>
